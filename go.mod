@@ -1,6 +1,6 @@
 module github.com/bluebuff/iris-middleware/v12
 
-go 1.14
+go 1.13
 
 require (
 	github.com/ajg/form v1.5.1 // indirect
