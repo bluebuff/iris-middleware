@@ -110,7 +110,6 @@ func (l *requestLoggerMiddleware) ServeHTTP(ctx context.Context) {
 		return
 	}
 
-	fmt.Println("=================")
 	// no new line, the framework's logger is responsible how to render each log.
 	line := fmt.Sprintf("%v %4v %s %s %s", apiCall.ResponseCode, apiCall.Latency, apiCall.IP, apiCall.MethodType, apiCall.CurrentPath)
 
